@@ -7,7 +7,7 @@ class Landing extends Component {
   render() {
     return (
       <div className="trainsView">
-        <SinglePageTrainsView/>
+        <SinglePageTrainsView id={this.props.match.params.train}/>
       </div>
     );
   }

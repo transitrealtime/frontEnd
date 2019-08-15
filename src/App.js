@@ -6,7 +6,7 @@ import SingleTrain from './pages/singleTrain';
 class App extends Component {
   render() {
     const landingPageComponent = () => (<LandingPage/>);
-    const singleTrainComponent = () => (<SingleTrain/>);
+    const singleTrainComponent = (props) => (<SingleTrain {...props}/>);
     return (
       <Router>
         <Switch>

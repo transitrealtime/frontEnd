@@ -10,52 +10,90 @@
 }
 
 a{
-    width: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
     margin-left:10px;
     margin-bottom: 10px;
     height: 50px;
-    border-radius: 25px;
-    font-size: 25px;
-    color: #FFF;
-    font-weight: bold;
+    width: 50px;
     line-height: 50px;
-    text-align: center;
-    background: #B2B2B2;
-    text-decoration: none;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 25px
 }
 
-#seven:hover{
+.seven{
+    color: #B933AD;
+    border-color: #B933AD;
+}
+.seven:hover{
+    color:white;
     background-color: #B933AD;
 }
 
-#red-line:hover{
+.red-line{
+    color:#EE352E;
+}
+.red-line:hover{
+    color:white;
     background-color: #EE352E;
 }
 
-#green-line:hover{
+.green-line{
+    color:#00933C;
+}
+.green-line:hover{
+    color:white;
     background-color: #00933C;
 }
 
-#blue-line:hover{
+.blue-line{
+    color:#0039A6;
+}
+.blue-line:hover{
+    color:white;
     background-color: #0039A6;
 }
 
-#yellow-line:hover{
+.yellow-line{
+    color:#FCCC0A;
+}
+.yellow-line:hover{
+    color:white;
     background-color: #FCCC0A;
 }
 
-#orange-line:hover{
+.orange-line{
+    color: #FF6319;
+}
+.orange-line:hover{
+    color:white;
     background-color: #FF6319;
 }
 
-#brown-line:hover{
+.brown-line{
+    color: #996633;
+}
+.brown-line:hover{
+    color:white;
     background-color: #996633;
 }
 
-#L-line:hover{
+.L-line{
+    color:#808183;
+}
+.L-line:hover{
+    color:white;
     background-color: #808183;
 }
 
-#G-line:hover{
+.G-line{
+   color:#6CBE45;
+}
+.G-line:hover{
+    color:white;
     background-color: #6CBE45;
 }
+
