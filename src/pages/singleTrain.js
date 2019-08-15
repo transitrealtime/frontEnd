@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import SinglePageTrainsView from '../components/singlePageTrainView';
+import '../styles/singleTrain.css';
 
 class Landing extends Component {
 
   render() {
     return (
-      <div>
-          hi
+      <div className="trainsView">
+        <SinglePageTrainsView/>
       </div>
     );
   }
