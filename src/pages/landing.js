@@ -6,7 +6,7 @@ import '../styles/landing.css';
 class Landing extends Component {
   render() {
     return (
-      <div>
+      <div className="landing">
         <h1>Transit Real Time</h1>
         <div className="container">
           <div className="trainViewContainer">

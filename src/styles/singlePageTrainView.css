@@ -5,3 +5,128 @@
     justify-content: center;
     align-content: center;
 }
+
+.trains > a{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left:10px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 25px
+}
+
+.\37-line{
+    color: #B933AD;
+    border-color: #B933AD;
+}
+.\37-line:hover{
+    color:white;
+    background-color: #B933AD;
+}
+.\37solid{
+    color:white;
+    background-color: #B933AD;
+}
+
+.\31-line,.\32-line,.\33-line{
+    color:#EE352E;
+}
+.\31-line:hover,.\32-line:hover,.\33-line:hover{
+    color:white;
+    background-color: #EE352E;
+}
+.\31solid,.\32solid,.\33solid{
+    color:white;
+    background-color: #EE352E;
+}
+
+
+.\34-line,.\35-line,.\36-line{
+    color:#00933C;
+}
+.\34-line:hover,.\35-line:hover,.\36-line:hover{
+    color:white;
+    background-color: #00933C;
+}
+.\34solid,.\35solid,.\36solid{
+    color:white;
+    background-color: #00933C;
+}
+
+.A-line,.C-line,.E-line{
+    color:#0039A6;
+}
+.A-line:hover,.C-line:hover,.E-line:hover{
+    color:white;
+    background-color: #0039A6;
+}
+.Asolid,.Csolid,.Esolid{
+    color:white;
+    background-color: #0039A6; 
+}
+
+.N-line,.Q-line,.R-line,.W-line{
+    color:#FCCC0A;
+}
+.N-line:hover,.Q-line:hover,.R-line:hover,.W-line:hover{
+    color:white;
+    background-color: #FCCC0A;
+}
+.Nsolid,.Qsolid,.Rsolid,.Wsolid{
+    color:white;
+    background-color: #FCCC0A;
+}
+
+.B-line,.D-line,.F-line,.M-line{
+    color: #FF6319;
+}
+.B-line:hover,.D-line:hover,.F-line:hover,.M-line:hover{
+    color:white;
+    background-color: #FF6319;
+}
+.Bsolid,.Dsolid,.Fsolid,.Msolid{
+    color:white;
+    background-color: #FF6319;
+}
+
+.J-line,.Z-line{
+    color: #996633;
+}
+.J-line:hover,.Z-line:hover{
+    color:white;
+    background-color: #996633;
+}
+.Jsolid,.Zsolid{
+    color:white;
+    background-color: #996633;
+}
+
+.L-line,.S-line{
+    color:#808183;
+}
+.L-line:hover,.S-line:hover{
+    color:white;
+    background-color: #808183;
+}
+.Lsolid,.Ssolid{
+    color:white;
+    background-color: #808183;
+}
+
+.G-line{
+    color:#6CBE45;
+}
+.G-line:hover{
+    color:white;
+    background-color: #6CBE45;
+}
+.Gsolid{
+    color:white;
+    background-color: #6CBE45; 
+}

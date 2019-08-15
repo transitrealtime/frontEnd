@@ -1,8 +1,8 @@
-h1{
+.landing h1{
     text-align: center;
 }
 
-.container{
+.landing >.container{
     width: 80vw;
     height: 80vh;
     position: absolute;
@@ -13,11 +13,11 @@ h1{
     border-radius: 10px;
 }
 
-.trainViewContainer{
+.landing .trainViewContainer{
     width: 50vw;
 }
 
-.trainView{
+.landing .trainView{
     width: 30vw;
     height: 30vh;
     float: left;
@@ -25,7 +25,7 @@ h1{
     margin-left: 10vw;
 }
 
-.iframeView{
+.landing .iframeView{
     display: flex;
     float: right;
     margin-top: 10vh;
