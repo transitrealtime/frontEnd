@@ -4,7 +4,7 @@ import '../styles/trainsView.css'
 
 const trainsView = () => {
   return (
-    <div className="display">
+    <div className="trains">
       <Link className="seven" to="/train/7">7</Link>
       <div className="break"></div>
       <Link className="brown-line" to="/train/J">J</Link>

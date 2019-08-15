@@ -1,4 +1,4 @@
-.display{
+.trains{
     display: flex;
     align-items: flex-start; 
     flex-wrap: wrap;
@@ -9,7 +9,7 @@
     height: 0;
 }
 
-a{
+.trains > a{
     font-weight: bold;
     text-align: center;
     text-decoration: none;
