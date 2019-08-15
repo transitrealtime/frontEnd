@@ -1,0 +1,7 @@
+.trainsView{
+    margin-top:2.5vh;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}

@@ -1,21 +1,19 @@
 import React from "react";
 import {Link} from 'react-router-dom';
-import '../styles/trainsView.css'
+import '../styles/singlePageTrainView.css';
 
-const trainsView = () =>{
+const singlePageTrainView = () =>{
     return(
         <div className="display">
             <Link id="seven" to="/train/7">
               7
             </Link>
-            <div className="break"></div>
             <Link id="brown-line" to="/train/J">
               J
             </Link>
             <Link id="brown-line" to="/train/Z">
               Z
             </Link>
-            <div className="break"></div>
             <Link id="L-line" to="/train/L">
               L
             </Link>
@@ -25,7 +23,6 @@ const trainsView = () =>{
             <Link id="G-line" to="/train/G">
               G
             </Link>
-            <div className="break"></div>
             <Link id="red-line" to="/train/1">
               1
             </Link>
@@ -35,7 +32,6 @@ const trainsView = () =>{
             <Link id="red-line" to="/train/3">
               3
             </Link>
-            <div className="break"></div>
             <Link id="green-line" to="/train/4">
               4
             </Link>
@@ -45,7 +41,6 @@ const trainsView = () =>{
             <Link id="green-line" to="/train/6">
               6
             </Link>
-            <div className="break"></div>
             <Link id="blue-line" to="/train/A">
               A
             </Link>
@@ -55,7 +50,6 @@ const trainsView = () =>{
             <Link id="blue-line" to="/train/E">
               E
             </Link>
-            <div className="break"></div>
             <Link id="orange-line" to="/train/B">
               B
             </Link>
@@ -68,7 +62,6 @@ const trainsView = () =>{
             <Link id="orange-line" to="/train/M">
               M
             </Link>
-            <div className="break"></div>
             <Link id="yellow-line" to="/train/N">
               N
             </Link>
@@ -85,4 +78,4 @@ const trainsView = () =>{
     )
 }
 
-export default trainsView;
+export default singlePageTrainView;
