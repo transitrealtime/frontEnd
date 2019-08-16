@@ -9,6 +9,7 @@
     height: 0;
 }
 
+
 .trains a{
     font-weight: bold;
     text-align: center;
@@ -22,6 +23,23 @@
     border-style: solid;
     border-width: thin;
     border-radius: 25px
+}
+
+@media screen and (max-width: 800px) {
+    a{
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        font-size: 10px;
+        margin-left:2px;
+        margin-bottom: 2px;
+        height: 20px;
+        width: 20px;
+        line-height: 20px;
+        border-style: solid;
+        border-width: thin;
+        border-radius: 10px
+    }
 }
 
 .seven{
