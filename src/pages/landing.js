@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import TrainsView from '../components/trainsView';
 import MtaStatusView from '../components/mtaStatusView';
+import TwitterFeed from '../components/twitterFeed';
 import '../styles/landing.css';
 
 class Landing extends Component {
@@ -16,8 +17,9 @@ class Landing extends Component {
           </div>
           <div className="iframeView">
             <MtaStatusView/>
-            <MtaStatusView/>
+            <TwitterFeed/>
           </div>
+          
         </div>
       </div>
     );
