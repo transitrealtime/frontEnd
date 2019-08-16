@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SinglePageTrainsView from '../components/singlePageTrainView';
 import axios from 'axios';
+import '../styles/singleTrainStation.css'
 
 class singleTrainStation extends Component {
 	constructor(props) {
