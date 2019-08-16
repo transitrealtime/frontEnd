@@ -57,7 +57,7 @@ class singleTrainStation extends Component {
 	}
 	render() {
 		return (
-			<div class="container">
+			<div className="container">
 				<div className="trainsView">
 					<SinglePageTrainsView id={this.props.match.params.train} />
 				</div>
