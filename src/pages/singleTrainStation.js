@@ -14,7 +14,7 @@ class singleTrainStation extends Component {
 
 	async componentDidMount() {
 		try {
-			let { data } = await axios.get(`http://mta-real-time.herokuapp.com/trains/${this.props.match.params.train}/${this.props.match.params.station}`);
+			let { data } = await axios.get(`https://mta-real-time.herokuapp.com/trains/${this.props.match.params.train}/${this.props.match.params.station}`);
 			this.setState({
 				northBound: data.northBound,
 				southBound: data.southBound
@@ -24,7 +24,7 @@ class singleTrainStation extends Component {
 			console.log(err)
 		}
 		try{
-			let {data} = await axios.get(`http://mta-real-time.herokuapp.com/stations/${this.props.match.params.station}`);
+			let {data} = await axios.get(`https://mta-real-time.herokuapp.com/stations/${this.props.match.params.station}`);
 			this.setState({
 				station: data['Stop Name']
 			})
