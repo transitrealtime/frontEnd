@@ -8,7 +8,7 @@ class singleTrainStation extends Component {
 		this.state = {
 			northBound:[],
 			southBound:[],
-			station:""
+			station:"",
 		}
 	}
 
