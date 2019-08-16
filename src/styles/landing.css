@@ -8,9 +8,9 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    bottom: 5vh;
+    /* bottom: 5vh;
     height: 80vh;
-    width: 60vh;
+    width: 60vh; */
     box-shadow: 0 2px 4px rgba(141,149,166,0.7);
     border-radius: 10px;
 }
