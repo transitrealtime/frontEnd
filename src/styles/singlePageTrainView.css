@@ -6,6 +6,10 @@
     align-content: center;
 }
 
+.trains {
+    display: flex;
+    justify-content: center;
+}
 .trains > a{
     font-weight: bold;
     text-align: center;
