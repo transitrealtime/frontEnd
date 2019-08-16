@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SinglePageTrainsView from '../components/singlePageTrainView';
 import axios from 'axios';
+import '../styles/singleTrainStation.css'
 
 class singleTrainStation extends Component {
 	constructor(props) {
@@ -8,13 +9,13 @@ class singleTrainStation extends Component {
 		this.state = {
 			northBound:[],
 			southBound:[],
-			station:""
+			station:"",
 		}
 	}
 
 	async componentDidMount() {
 		try {
-			let { data } = await axios.get(`http://mta-real-time.herokuapp.com/trains/${this.props.match.params.train}/${this.props.match.params.station}`);
+			let { data } = await axios.get(`https://mta-real-time.herokuapp.com/trains/${this.props.match.params.train}/${this.props.match.params.station}`);
 			this.setState({
 				northBound: data.northBound,
 				southBound: data.southBound
@@ -24,7 +25,7 @@ class singleTrainStation extends Component {
 			console.log(err)
 		}
 		try{
-			let {data} = await axios.get(`http://mta-real-time.herokuapp.com/stations/${this.props.match.params.station}`);
+			let {data} = await axios.get(`https://mta-real-time.herokuapp.com/stations/${this.props.match.params.station}`);
 			this.setState({
 				station: data['Stop Name']
 			})

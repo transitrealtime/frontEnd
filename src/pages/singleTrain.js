@@ -15,7 +15,7 @@ class singleTrain extends Component {
 
   async componentDidMount() {
     try {
-      let { data } = await axios.get(`http://mta-real-time.herokuapp.com/trains/${this.props.match.params.train}`);
+      let { data } = await axios.get(`https://mta-real-time.herokuapp.com/trains/${this.props.match.params.train}`);
       this.setState({
         stations: data,
         train: this.props.match.params.train
@@ -29,7 +29,8 @@ class singleTrain extends Component {
     this.state.stations.map(item => {
       return (
         <Link to={`/train/${this.state.train}/${item.stationId}`}>{item.stationName}</Link>
-      )}
+      )
+    }
     )
   )
 
@@ -39,8 +40,10 @@ class singleTrain extends Component {
         <div className="trainsView">
           <SinglePageTrainsView id={this.props.match.params.train} />
         </div>
-        <div className="stations">
-          {this.display()}
+        <div className="stationView">
+          <div className="stations">
+            {this.display()}
+          </div>
         </div>
       </div>
     );

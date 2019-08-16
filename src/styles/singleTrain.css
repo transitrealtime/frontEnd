@@ -1,18 +1,23 @@
-
-.container .stations{
-    margin-top: 15vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 50vh;
-    width: auto;
-    flex-grow: 1;
-}
-a{
+.stations a{
     text-decoration: none;
     color:black;
-    height:100px;
-    width: 200px;
+    height:10vh;
+    width: 10vw;
+    margin-left:10px;
+}
+
+.stationView{
+    margin-top: 15vh;
+    margin-left:10vw;
+    margin-right:10vw;
+    height: 50vh;
+    width: 80vw;
+}
+
+.stationView .stations{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: center;
+    flex-direction: row;
 }

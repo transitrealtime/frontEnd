@@ -9,7 +9,7 @@
     height: 0;
 }
 
-.trains > a{
+.trains a{
     font-weight: bold;
     text-align: center;
     text-decoration: none;
