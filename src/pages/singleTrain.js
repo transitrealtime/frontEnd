@@ -15,7 +15,7 @@ class singleTrain extends Component {
 
   async componentDidMount() {
     try {
-      let { data } = await axios.get(`http://mta-real-time.herokuapp.com/trains/${this.props.match.params.train}`);
+      let { data } = await axios.get(`https://mta-real-time.herokuapp.com/trains/${this.props.match.params.train}`);
       this.setState({
         stations: data,
         train: this.props.match.params.train
