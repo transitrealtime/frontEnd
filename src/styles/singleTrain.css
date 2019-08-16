@@ -1,32 +1,15 @@
 .stations a{
     text-decoration: none;
     color:black;
-    /* height:10vh;
-    width: 10vw; */
     padding: 5px;
     margin: 5px;
     border-radius: 15px;
     border:solid thin;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0);
     display: flex;
-    /* flex-flow: column; */
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-.stations{
-    display: flex;
-    align-items: space-around;
-}
-
-
-.stationView{
-    margin-top: 5vh;
-    /* margin-left:10vw;
-    margin-right:10vw; */
-    /* height: 50vh;
-    width: 80vw; */
+    width: 100%;
 }
 
 .stationView .stations{
