@@ -11,12 +11,11 @@ class Landing extends Component {
         <div className="container">
           <div className="trainViewContainer">
             <div className="trainView">
-              <TrainsView/>
+              <TrainsView />
             </div>
           </div>
           <div className="iframeView">
-            <MtaStatusView/>
-            <MtaStatusView/>
+            <MtaStatusView />
           </div>
         </div>
       </div>
