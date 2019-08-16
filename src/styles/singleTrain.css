@@ -9,7 +9,7 @@
     border:solid thin;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0);
     display: flex;
-    flex-flow: column wrap;
+    /* flex-flow: column; */
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -34,7 +34,7 @@
     flex-wrap: wrap;
     align-items: space-around;
     justify-content: space-around;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .container {
